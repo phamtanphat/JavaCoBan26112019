@@ -38,14 +38,30 @@ class Ideone
 		// count += 1;
 		// int count1 = ++count;
 		// System.out.print(count1);
-		
+		// int a = 5;
+		// int b = 10;
+		// int ketqua = ++a + --b + ++a - b++ + a-- + b-- + ++b - --a - --b;
+		//6 + --b + ++a - b++ + a-- + b-- + ++b - --a - --b;  a = 6 , b= 10
+		//6 + 9 + ++a - b++ + a-- + b-- + ++b - --a - --b;  a = 6 , b= 9
+		//6 + 9 + 7 - b++ + a-- + b-- + ++b - --a - --b;  a = 7 , b= 9
+		//6 + 9 + 7 - 9 + a-- + b-- + ++b - --a - --b;  a = 7 , b= 10
+		//6 + 9 + 7 - 9 + 7 + b-- + ++b - --a - --b;  a = 6 , b= 10
+		//6 + 9 + 7 - 9 + 7 + 10 + ++b - --a - --b;  a = 6 , b= 9
+		//6 + 9 + 7 - 9 + 7 + 10 + 10 - --a - --b;  a = 6 , b= 10
+		//6 + 9 + 7 - 9 + 7 + 10 + 10 - 5 - --b;  a = 5 , b= 10
+		//6 + 9 + 7 - 9 + 7 + 10 + 10 - 5 - 9;  a = 5 , b= 10
+		//22 - 9 + 7 + 10 + 10 - 5 - 9
+		//22 - 18 + 22
+		//26
+		// System.out.print(ketqua);
+		// 4 : Câu điều kiện (if else , switch case)
 		int a = 5;
-		int b = 10;
+		int b = 6;
 		
-		int ketqua = ++a + --b + ++a - b++ + a-- + b-- + ++b - --a - --b;
-		//6 + --b + ++a - b++ + a-- + b-- + ++b - --a - --b;
-		
-		
-		
+		if(a == b | a < b ){
+			System.out.print("A bé hơn hay bằng B");
+		}else{
+			System.out.print("A khác B");
+		}
 	}
 }
