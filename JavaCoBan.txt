@@ -1,4 +1,4 @@
-/* package whatever; // don't place package name! */
+﻿/* package whatever; // don't place package name! */
 
 import java.util.*;
 import java.lang.*;
@@ -19,10 +19,31 @@ class Ideone
 		// những ký tự đầu viết thường nó kiểu nguyên thủy , ngược lại là object
 		// null
 		// 2 : Khai báo biến
+		/*
 		String name = "Phạm Tấn Phát";
-		System.out.print(name);
+		int age = null;
+		System.out.print(age);
+		*/
+		//comment code : ctrl + / , /**/
+		//3 : Toán tử :
+		// Toán tử một ngôi : 5 + 6 + 7
+		// Toán tử hai ngôi : a++ , b++ , ++b , ++a
+		// Toán tử ba ngôi : dk ? a : b
+		// + - * / ++ --
+		// Vi tri 1 : ++ --
+		// Vi tri 2 : * /
+		// Vi tri 3 : + -
+		// int count = 0;
+		// count = count + 1;
+		// count += 1;
+		// int count1 = ++count;
+		// System.out.print(count1);
 		
+		int a = 5;
+		int b = 10;
 		
+		int ketqua = ++a + --b + ++a - b++ + a-- + b-- + ++b - --a - --b;
+		//6 + --b + ++a - b++ + a-- + b-- + ++b - --a - --b;
 		
 		
 		
