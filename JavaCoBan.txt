@@ -1,0 +1,30 @@
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// 1 : Kiểu dữ liệu trong java
+		// String(Chuỗi)
+		// int(số nguyên) - Integer
+		// float(số thực) - Float
+		// double > float - Double
+		// boolean (kiểu lý luận) - Boolean
+		// char ( kiểu ký tự) - Char
+		// những ký tự đầu viết thường nó kiểu nguyên thủy , ngược lại là object
+		// null
+		// 2 : Khai báo biến
+		String name = "Phạm Tấn Phát";
+		System.out.print(name);
+		
+		
+		
+		
+		
+	}
+}
