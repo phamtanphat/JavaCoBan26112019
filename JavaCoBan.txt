@@ -55,13 +55,33 @@ class Ideone
 		//26
 		// System.out.print(ketqua);
 		// 4 : Câu điều kiện (if else , switch case)
-		int a = 5;
-		int b = 6;
+		// int a = 5;
+		// int b = 6;
 		
-		if(a == b | a < b ){
-			System.out.print("A bé hơn hay bằng B");
-		}else{
-			System.out.print("A khác B");
+		// if(a == b | a < b ){
+		// 	System.out.print("A bé hơn hay bằng B");
+		// }else{
+		// 	System.out.print("A khác B");
+		// }
+		int thang = 10;
+		switch(thang){
+			case 1 : System.out.print("Quí 1");
+				break;
+			case 2 : System.out.print("Quí 1");
+				break;
+			case 3 : System.out.print("Quí 1");
+				break;
+			case 4 : System.out.print("Quí 2");
+				break;
+			case 5 : System.out.print("Quí 2");
+				break;
+			case 6 : System.out.print("Quí 2");
+				break;
+			default : System.out.print("Một quí nào");
+				break;
 		}
+		
+		
+		
 	}
 }
