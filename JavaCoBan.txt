@@ -83,6 +83,7 @@ class Ideone
 		}
 		
 		// Tiep theo
+		// your code goes here
 		// Hàm lặp for
 		// String[] arrayNames = {"Tèo","Tí","Tủn","Hoa","Tuấn"};
 		// int i = 0;
@@ -91,7 +92,7 @@ class Ideone
 		// }
 		
 		// 0 - 100 => In ra số chia hết cho 2
-		
+		for (int i = 0 ; i <= 100 ; i+= 2) System.out.println(i);
 		
 		// Mảng trong java : Array
 		// {item,item1,item2} == new int[kichthuoc]
