@@ -68,7 +68,16 @@ class Ideone
 			case 1 : System.out.print("Quí 1");
 				break;
 			case 2 : System.out.print("Quí 1");
-				break;
+		// Hàm lặp for
+		
+		// Mảng trong java : Array
+		// {item,item1,item2} == new int[kichthuoc]
+		// Lấy kích thước của mảng : .length trả về kích thước
+		// Khi gán 2 array = sẽ gán giá trị cho nhau
+		// int numbers[] = new int[5];
+		// int numbers2[] = new int[10];
+		// numbers = numbers2;
+		// System.out.print(numbers.length);			break;
 			case 3 : System.out.print("Quí 1");
 				break;
 			case 4 : System.out.print("Quí 2");
