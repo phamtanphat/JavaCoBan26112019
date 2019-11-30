@@ -82,12 +82,15 @@ class Ideone
 				break;
 		}
 		
+		// Tiep theo
 		// Hàm lặp for
-		String[] arrayNames = {"Tèo","Tí","Tủn","Hoa","Tuấn"};
-		int i = 0;
-		for( ; i < arrayNames.length ; i++){
-			System.out.println(arrayNames[i]);
-		}
+		// String[] arrayNames = {"Tèo","Tí","Tủn","Hoa","Tuấn"};
+		// int i = 0;
+		// for( ; i < arrayNames.length ; i++){
+		// 	System.out.println(arrayNames[i]);
+		// }
+		
+		// 0 - 100 => In ra số chia hết cho 2
 		
 		
 		// Mảng trong java : Array
@@ -97,6 +100,7 @@ class Ideone
 		// int numbers[] = new int[5];
 		// int numbers2[] = new int[10];
 		// numbers = numbers2;
+		// System.out.print(numbers.length);
 		
 	}
 }
